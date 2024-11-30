@@ -107,7 +107,7 @@ function getBestMove() {
         if (options[i] === "") {
             options[i] = "🐱";
             let score = minimax(options, 0, false);
-            options[i] = ""; //UNDO move
+            options[i] = ""; // UNDO move
             if (score > bestScore) {
                 bestScore = score;
                 bestMove = i;
@@ -117,14 +117,12 @@ function getBestMove() {
     return bestMove;
 }
 
+
 function minimax(board, depth, isMaximizing) {
     const winner = checkWinner(board);
-    if (winner === "🐱") 
-      return 1; 
-    if (winner === "🐟") 
-      return -1;
-    if (!board.includes(""))
-       return 0; //Tie
+    if (winner === "🐱") return 1;
+    if (winner === "🐟") return -1;
+    if (!board.includes("")) return 0; // Tie
 
     if (isMaximizing) {
         let bestScore = -Infinity;
@@ -132,18 +130,18 @@ function minimax(board, depth, isMaximizing) {
             if (board[i] === "") {
                 board[i] = "🐱";
                 let score = minimax(board, depth + 1, false);
-                board[i] = ""; //UNDO move
+                board[i] = ""; // UNDO move
                 bestScore = Math.max(score, bestScore);
             }
         }
         return bestScore;
-    } else { 
+    } else {
         let bestScore = Infinity;
         for (let i = 0; i < 9; i++) {
             if (board[i] === "") {
                 board[i] = "🐟";
                 let score = minimax(board, depth + 1, true);
-                board[i] = ""; //UNDO move
+                board[i] = ""; // UNDO move
                 bestScore = Math.min(score, bestScore);
             }
         }
@@ -198,13 +196,14 @@ function whoWon() {
 
 function checkWinner(board) {
     for (const condition of winConditions) {
-        const positions = condition;
-        if (board[positions[0]]==board[positions[1]]&&board[positions[2]]==board[positions[1]]) {
-            return board[positions[0]]; //we returnin the winner
+        const [a, b, c] = condition;
+        if (board[a] && board[a] === board[b] && board[a] === board[c]) {
+            return board[a]; // We return the winner
         }
     }
-    return null; //No winner yet
+    return null; // No winner yet
 }
+
 
 function rematch() {
 audio1.play();
