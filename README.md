@@ -19,4 +19,4 @@ Dive into the playful world of Fish-Cat-Toe, where you can challenge an AI cat b
 ## Getting Started
 
 1. Clone the repository to your local machine:
-      git clone https://github.com/yourusername/fish-cat-toe.git
+      git clone [https://github.com/yourusername/fish-cat-toe.git](https://github.com/ADR-projects/Fish-Cat-Toe.git)
