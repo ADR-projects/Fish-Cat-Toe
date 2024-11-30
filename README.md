@@ -7,7 +7,6 @@ Welcome to **Fish-Cat-Toe**, a charming twist on classic Tic-Tac-Toe, where fish
 Dive into the playful world of Fish-Cat-Toe, where you can challenge an AI cat bot in a game of strategic wits. But here's the **fun twist**—the cat bot isn't unbeatable! It sometimes makes silly, human-like moves, adding an element of surprise and delight to each game. Enjoy the engaging graphics and delightful sound effects that bring every move to life.
 
 ## Screenshot:
--[Title Page]()
 -[Game Screenshot]()
 
 ## Features
