@@ -175,6 +175,10 @@ function changePlayer() {
     if (currentPlayer === "🐱") {
         catBotStart();
     }
+    else
+    {
+        userStart();
+    }
 } 
 
 function whoWon() {
