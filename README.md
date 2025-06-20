@@ -17,4 +17,4 @@ Dive into the playful world of Fish-Cat-Toe, where you can challenge an AI cat b
 - **Great Graphics**: Experience stunning visuals that make every game more enjoyable.
 - **Sound Effects**: Catchy sound effects that accompany each move, enhancing the gaming experience.
 
-## Link to play: [https://fish-cat-toe.vercel.app] (https://fish-cat-toe.vercel.app)
+## Link to play: [https://fish-cat-toe.vercel.app](https://fish-cat-toe.vercel.app)
