@@ -4,7 +4,8 @@ Welcome to **Fish-Cat-Toe**, a charming twist on classic Tic-Tac-Toe, where fish
 
 ## Description
 
-Dive into the playful world of Fish-Cat-Toe, where you can challenge an AI cat bot in a game of strategic wits. But here's the **fun twist**—the cat bot isn't unbeatable! It sometimes makes silly, human-like moves, adding an element of surprise and delight to each game. Enjoy the engaging graphics and delightful sound effects that bring every move to life.
+Dive into the playful world of Fish-Cat-Toe, where you can challenge an AI cat bot in a game of strategic wits. 
+**Fun twist**: the cat bot isn't unbeatable! It sometimes makes silly, human-like moves, adding an element of surprise and delight to each game.
 
 ## Screenshot:
 -[Game Screenshot](https://github.com/ADR-projects/Fish-Cat-Toe.git)
@@ -16,7 +17,4 @@ Dive into the playful world of Fish-Cat-Toe, where you can challenge an AI cat b
 - **Great Graphics**: Experience stunning visuals that make every game more enjoyable.
 - **Sound Effects**: Catchy sound effects that accompany each move, enhancing the gaming experience.
 
-## Getting Started
-
-1. Clone the repository to your local machine:
-      git clone [https://github.com/ADR-projects/Fish-Cat-Toe.git](https://github.com/ADR-projects/Fish-Cat-Toe.git)
+## Link to play: [https://fish-cat-toe.vercel.app] (https://fish-cat-toe.vercel.app)
