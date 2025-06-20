@@ -11,7 +11,7 @@ Dive into the playful world of Fish-Cat-Toe, where you can challenge an AI cat b
 -[Game Screenshot](https://github.com/ADR-projects/Fish-Cat-Toe.git)
 
 ### Features
--**Choose to be Player1 or 2**: It's your choice!
+-**Choose to be Player1 or 2**: It's your choice.
 - **Fish vs Cat Theme**: Enjoy the classic game of Tic-Tac-Toe with a charming twist: play as a fish against the cat bot.
 - **Humanized AI**: The cat bot occasionally makes silly, human-like moves, making the game more unpredictable and fun.
 - **Great Graphics**: Experience stunning visuals that make every game more enjoyable.
